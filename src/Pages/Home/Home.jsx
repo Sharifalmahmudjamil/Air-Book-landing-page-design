@@ -4,6 +4,7 @@ import Navbar from "../Navbar/Navbar";
 import OffersSection from "../OffersSection/OffersSection";
 import PopularAirlines from "../PopularAirlines/PopularAirlines";
 import Testimonials from "../Testimonials/Testimonials";
+import TravelBlog from "../TravelBlog/TravelBlog";
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <OffersSection></OffersSection>
             <PopularAirlines></PopularAirlines>
             <Testimonials></Testimonials>
+            <TravelBlog></TravelBlog>
         </div>
     );
 };
