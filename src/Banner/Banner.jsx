@@ -31,7 +31,7 @@ const Banner = () => {
       <div className="grid grid-cols-2 lg:grid-cols-5 gap-24 bg-white text-black text-center mt-4">
          <div className="w-[200px] h-[70px] border rounded-xl">
             <div className="flex gap-2">
-            <h1 className="font-semibold text-sm">DAC</h1>
+            <h1 className="font-bold text-sm mt-6 ">DAC</h1>
             <span className='w-[80px] hidden md:block h-[1px] bg-slate-200 rounded-sm mb-4  mt-8 rotate-90'></span>
             <h1 className="font-medium text-sm">Dhaka <br /> Hazrat Shahjalal International</h1>
             </div>
@@ -39,7 +39,7 @@ const Banner = () => {
          </div>
          <div className="w-[200px] h-[70px] border rounded-xl">
             <div className="flex gap-2">
-            <h1 className="font-semibold text-sm">Cxb</h1>
+            <h1 className="font-bold text-sm mt-6">Cxb</h1>
             <span className='w-[80px] hidden md:block h-[1px] bg-slate-200 rounded-sm mb-4  mt-8 rotate-90'></span>
             <h1 className="font-medium text-sm">Cox’s Bazar<br />Cox’s Bazar international</h1>
             </div>
@@ -47,7 +47,7 @@ const Banner = () => {
          </div>
          <div className="w-[200px] h-[70px] border rounded-xl">
             <div className="flex gap-2">
-            <h1 className="font-semibold text-sm">03</h1>
+            <h1 className="font-bold text-sm mt-6">03</h1>
             <span className='w-[50px] hidden md:block h-[1px] bg-slate-200 rounded-sm mb-4  mt-8 rotate-90'></span>
             <h1 className="font-medium text-sm">october<br />tuesday, 2023</h1>
             </div>
@@ -55,7 +55,7 @@ const Banner = () => {
          </div>
          <div className="w-[200px] h-[70px] border rounded-xl">
             <div className="flex gap-2">
-            <h1 className="font-semibold text-sm">05</h1>
+            <h1 className="font-bold text-sm mt-6">05</h1>
             <span className='w-[50px] hidden md:block h-[1px] bg-slate-200 rounded-sm mb-4  mt-8 rotate-90'></span>
             <h1 className="font-medium text-sm">october<br />tuesday, 2023</h1>
             </div>

@@ -11,13 +11,13 @@ const Testimonials = () => {
              <div className="max-w-screen-2xl relative border h-[400px] bg-[#006CE4] mt-10">
 
               <div className='absolute border w-[150px] h-[250px] mt-24 mx-5 bg-cover' style={{backgroundImage: 'url(https://i.ibb.co/mTkPzsc/thumbnail2.jpg)'}}> 
-              <div className="hero-overlay bg-opacity-70"></div>
+              <div className="hero-overlay bg-opacity-85"></div>
 
                </div>
 
 
               <div className='absolute border w-[150px] h-[250px] mt-24 mx-[1130px]  bg-cover' style={{backgroundImage: 'url(https://i.ibb.co/cXYShSr/Rectangle-33.png)'}}> 
-              <div className="hero-overlay bg-opacity-70"></div>
+              <div className="hero-overlay bg-opacity-85"></div>
 
                </div>
 

@@ -1,8 +1,4 @@
-# React + Vite
+# Website Description
+This is a front-end Landing page design task for this website. We call this website AirBook. This website's frontend design was all I worked on. For this website, I used HTML ,Tailwind CSS and React.js. This website is responsive on desktop, laptop, and mobile devices. Netlify was used to deploy this website.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Live-Link: https://stellar-ganache-a931d5.netlify.app/
