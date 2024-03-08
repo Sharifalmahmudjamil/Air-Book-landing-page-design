@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import testimonials from '../../../public/images/testimonials.jpg'
+
 import { FaArrowLeft,FaArrowRight } from "react-icons/fa";
 
 const Testimonials = () => {
@@ -8,8 +9,21 @@ const Testimonials = () => {
         <div className="">
              <h1 className="font-bold text-3xl mt-10 max-w-screen-xl mx-auto">Testimonials</h1>
              <div className="max-w-screen-2xl relative border h-[400px] bg-[#006CE4] mt-10">
-             <FaArrowLeft  className='text-6xl absolute mt-52 mx-28 text-white'/>
-             <FaArrowRight  className='text-6xl absolute mt-52 mx-[1130px] z-10 text-white'/>
+
+              <div className='absolute border w-[150px] h-[250px] mt-24 mx-5 bg-cover' style={{backgroundImage: 'url(https://i.ibb.co/mTkPzsc/thumbnail2.jpg)'}}> 
+              <div className="hero-overlay bg-opacity-70"></div>
+
+               </div>
+
+
+              <div className='absolute border w-[150px] h-[250px] mt-24 mx-[1130px]  bg-cover' style={{backgroundImage: 'url(https://i.ibb.co/cXYShSr/Rectangle-33.png)'}}> 
+              <div className="hero-overlay bg-opacity-70"></div>
+
+               </div>
+
+
+             <FaArrowLeft  className='text-3xl absolute mt-52 mx-28 text-white'/>
+             <FaArrowRight  className='text-3xl absolute mt-52 mx-[1130px] z-10 text-white'/>
              <div className="card absolute card-side w-[900px] bg-base-100 shadow-xl mx-48 mt-20 ">
             
   <figure><img className='w-[200px] h-[280px]' src={testimonials} alt="Movie"/></figure>

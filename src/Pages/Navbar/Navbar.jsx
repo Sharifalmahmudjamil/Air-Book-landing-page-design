@@ -1,4 +1,4 @@
-import logo from "../../../public/images/logo Air.png"
+import logo from "../../../public/images/LOGO.png"
 
 const Navbar = () => {
     return (
@@ -18,9 +18,9 @@ const Navbar = () => {
     </div>
 
    
-   <img className="w-[40px] h-[40px]" src={logo} alt="" />
+   <img className="w-[120px] h-[40px] lg:mx-32" src={logo} alt="" />
    
-    <a className="text-3xl font-bold"><span className="text-[#FFB700]">Air</span><span className="text-blue-600">Book</span> </a>
+    {/* <a className="text-3xl font-bold"><span className="text-[#FFB700]">Air</span><span className="text-blue-600">Book</span> </a> */}
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 text-lg font-medium">

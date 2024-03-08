@@ -5,7 +5,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 const Banner = () => {
     return (
-        <div className="overflow-x-hidden">
+        <div className="">
              <h1 className=" absolute z-10 mt-24 mx-40 text-4xl font-bold text-blue-500"><span className="text-white">Welcome to</span> AirBook</h1>
             <div className="hero w-[1360px] h-[500px] relative" style={{backgroundImage: 'url(https://i.ibb.co/N1b9L29/banner.png)'}}>
        
@@ -32,7 +32,7 @@ const Banner = () => {
          <div className="w-[200px] h-[70px] border rounded-xl">
             <div className="flex gap-2">
             <h1 className="font-semibold text-sm">DAC</h1>
-            
+            <span className='w-[80px] hidden md:block h-[1px] bg-slate-200 rounded-sm mb-4  mt-8 rotate-90'></span>
             <h1 className="font-medium text-sm">Dhaka <br /> Hazrat Shahjalal International</h1>
             </div>
            
@@ -40,7 +40,7 @@ const Banner = () => {
          <div className="w-[200px] h-[70px] border rounded-xl">
             <div className="flex gap-2">
             <h1 className="font-semibold text-sm">Cxb</h1>
-           
+            <span className='w-[80px] hidden md:block h-[1px] bg-slate-200 rounded-sm mb-4  mt-8 rotate-90'></span>
             <h1 className="font-medium text-sm">Cox’s Bazar<br />Cox’s Bazar international</h1>
             </div>
            
@@ -48,7 +48,7 @@ const Banner = () => {
          <div className="w-[200px] h-[70px] border rounded-xl">
             <div className="flex gap-2">
             <h1 className="font-semibold text-sm">03</h1>
-           
+            <span className='w-[50px] hidden md:block h-[1px] bg-slate-200 rounded-sm mb-4  mt-8 rotate-90'></span>
             <h1 className="font-medium text-sm">october<br />tuesday, 2023</h1>
             </div>
            
@@ -56,7 +56,7 @@ const Banner = () => {
          <div className="w-[200px] h-[70px] border rounded-xl">
             <div className="flex gap-2">
             <h1 className="font-semibold text-sm">05</h1>
-           
+            <span className='w-[50px] hidden md:block h-[1px] bg-slate-200 rounded-sm mb-4  mt-8 rotate-90'></span>
             <h1 className="font-medium text-sm">october<br />tuesday, 2023</h1>
             </div>
            
